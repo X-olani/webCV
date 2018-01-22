@@ -1,0 +1,102 @@
+
+nav{position: fixed;
+width: 100%;
+height: 50px;
+background-color: white}
+
+.new_size{width: 74%;
+height: 104px;}
+
+.navheader{margin-right: 132px;
+font-size: 22px}
+
+.userimage{width:11%;
+    border-radius: 50%;
+  padding-top: 91px;
+}
+.expP{font-size: 18px;
+padding-top: 3px}
+.intro{ width: 100%;
+  height: 800px;
+  background-color:black;
+}
+p{padding-left: 10px}
+
+
+.fa{font-size: 30px;
+  color:white;
+}
+.contentfont{color:white;
+  font-family: 'Corben', Georgia, Times, serif;
+	font-size: 40px;
+	line-height: 55px;';
+
+}
+
+p{color:white;
+font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+h2{color:white;
+  font-family: 'Corben', Georgia, Times, serif;
+font-size: 36px}
+
+h5{color:white;
+  font-family: 'Corben', Georgia, Times, serif;
+font-size: 22px}
+
+
+.contentCorben {
+  color:white;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 25px;}
+
+.spaces{padding-bottom: 18px;}
+.mainimage{background-image:url('http://www.ronseal.co.uk/media/1202/garden-paint.jpg');
+height: 500px;
+ background-repeat:no-repeat;
+ background-size:100% 500px;
+width: 100%}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+
+}
+.aboutSec{width: 58%;
+    margin-left: 280px;
+    color:white;
+  }
+.eduspace{width: 50%;
+height:800PX;
+border-right: 2px solid #227c8b;}
+
+.workexp{width: 100%;
+height: 622px;
+padding-left: 230px;
+padding-right: 230px;
+background-color: #227c8b}
+
+.headerspace{padding-bottom: 25px;
+padding-top: 25px}
+
+.workSec{width:100%;}
+
+.hobbexp{width: 100%;
+height: 237px;
+background-color: #227c8b}
+
+.hobbp{padding-left: 26%;
+padding-right: 26%;
+font-size: 16px}
+
+.skill{width: 100%;
+height: 249px;
+    padding-top: 61px;
+background-color:black;}
+
+.footercontact{width: 100%;
+height: 200px;
+background-color:black;
+font-size:30px;
+}
