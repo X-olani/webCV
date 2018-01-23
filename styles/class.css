@@ -124,4 +124,25 @@ height: 803px;}
 .hobbexp{height: 278px;}
 
 .footercontact{height: 141px}
+
+.userimage{width:30%}
+
+.mainimage {height: 558px;
+background-size: 100% 558px;}
+
+nav{padding-left:0px;}
+}
+
+@media screen and (max-width: 600px) and (min-width: 501px) {
+  nav{padding-left: 0px;}
+  .navheader{margin-right: 8%}
+  .aboutSec {
+    width: 100%;
+      margin-left:0px;}
+    .intro{height: 1033px;}
+
+.eduspace { height: 1033PX;}
+
+
+
 }
