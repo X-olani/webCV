@@ -24,10 +24,10 @@
   </head>
 <nav class='text-center'>
 
-  <a class='navheader about'href="">ABOUT</a>
-  <a class='navheader Edu'href="">Education</a>
-  <a id='skills'class='navheader 'href=""> Skills</a>
-  <a class='navheader contact'href="#">CONTACT</a>
+  <a id='about'class='navheader about'>ABOUT</a>
+  <a id='edu'class='navheader'>Education</a>
+  <a id='skills'class='navheader '> Skills</a>
+  <a class='navheader contact'>CONTACT</a>
 </nav>
 
   <body>
@@ -122,10 +122,10 @@ The skills i learnt was customer care and time management
 
 </div>
 
-<div style="width:100%;background-color:black">
+<div id='jumptoskill'style="width:100%;height: 188px;background-color:black">
 <h2 style="padding-left: 10px">Skills</h2>
 
-<div id='jumptoskill' class="owl-carousel ">
+<div  class="owl-carousel ">
 
    <img class='new_size'src="images/ext.jpeg" alt="">
    <img class='new_size'src="images/javascript.png" alt="">
@@ -196,21 +196,27 @@ $(".contact").click(function() {
         'slow');
 });
 
-$(".Edu").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".headerspace").offset().top},
-        'slow');
+$("#edu").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#Education").offset().top
+    }, 2000);
 });
+
+
+
 $("#skills").click(function (){
               $('html, body').animate({
                   scrollTop: $("#jumptoskill").offset().top
               }, 2000);
 
 });
+$("#about").click(function (){
+              $('html, body').animate({
+                  scrollTop: $(".mainimage").offset().top
+              }, 2000);
 
 });
-
-
+});
 
 </script>
 </html>
