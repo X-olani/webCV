@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <!--https://static.tumblr.com/a43ce539855b545350050f862219b139/1pdbh6s/8m5n986se/tumblr_static_ddjcuc179n480o4swwk4wcsc4_2048_v2.jpg -->
@@ -26,7 +26,7 @@
 
   <a class='navheader about'href="">ABOUT</a>
   <a class='navheader Edu'href="">Education</a>
-  <a class='navheader skills'href=""> Skills</a>
+  <a id='skills'class='navheader 'href=""> Skills</a>
   <a class='navheader contact'href="#">CONTACT</a>
 </nav>
 
@@ -71,21 +71,21 @@
   </section>
 
 
-  <section class=' text-center'>
+  <section class='course text-center'>
     <h2 class='headerspace'>Course</h2>
     <h4 class='spaces'>CAD Essentials - The CAD Corporation</h4>
-    <p>computer-aided design.
+    <p class='courseP'>computer-aided design.
   The start of the course ames to enable the student to create and edit a simple drawing using dasic tools,
 and then continue to develop those tools.</p>
     <h4 class='spaces'> CAD Advanced - The CAD Corporation</h4>
-    <p>the course teaches you which tools are best suited for the task,
+    <p class='courseP'>the course teaches you which tools are best suited for the task,
    and how to get the best result from the tools you are using.
     lastly you learn to create your own tools to help complete the task efficiently.</p>
     <h4 class='spaces'>Emotional Intelligence and Personal Mastery – Imsimbi Training</h4>
     <p>What i learnt from Imsimbi Training was how to manage
        and work with different personality in a work environment. </p>
     <h4 class='spaces'>CodeSpace</h4>
-<p>Front end web development. Interactive web applications and an introduction to mobile web applications.
+<p class="courseP">Front end web development. Interactive web applications and an introduction to mobile web applications.
    The content of the course includes
     HTML, CSS, JavaScript, jQuery, NodeJS and front end frameworks.</p>
 
@@ -125,7 +125,7 @@ The skills i learnt was customer care and time management
 <div style="width:100%;background-color:black">
 <h2 style="padding-left: 10px">Skills</h2>
 
-<div class="owl-carousel skill ">
+<div id='jumptoskill' class="owl-carousel ">
 
    <img class='new_size'src="images/ext.jpeg" alt="">
    <img class='new_size'src="images/javascript.png" alt="">
@@ -201,12 +201,13 @@ $(".Edu").click(function() {
         scrollTop: $(".headerspace").offset().top},
         'slow');
 });
+$("#skills").click(function (){
+              $('html, body').animate({
+                  scrollTop: $("#jumptoskill").offset().top
+              }, 2000);
 
-$(".skills").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".skill").offset().top},
-        'slow');
 });
+
 });
 
 
