@@ -1,4 +1,5 @@
 
+
 nav{position: fixed;
 width: 100%;
 height: 50px;
@@ -58,7 +59,10 @@ font-size: 22px}
 	font-size: 18px;
 	line-height: 25px;}
 
-.spaces{padding-bottom: 18px;}
+.spaces{padding-bottom: 18px;
+}
+.underline{text-decoration: underline;
+font-size: 19px}
 .mainimage{background-image:url('http://www.ronseal.co.uk/media/1202/garden-paint.jpg');
 height: 500px;
  background-repeat:no-repeat;
@@ -79,7 +83,8 @@ height:626px;
 border-right: 2px solid #227c8b;}
 
 .Course{width: 50%;
-height: 800px;}
+height: 626px;
+overflow: scroll;}
 
 .workexp{width: 100%;
 height: 622px;
@@ -112,7 +117,7 @@ background-color:black;
 font-size:30px;
 }
 
-@media screen and (max-width: 501px) and (min-width: 400px) {
+@media screen and (max-width: 501px) and (min-width: 399px) {
   .navheader{margin-right: 6px;}
   .aboutSec{
         margin-left:0px;
@@ -120,8 +125,9 @@ font-size:30px;
   width:100%;}
 .eduspace{float:none;
 width: 100%;
-height:600px;;}
-.course{float:right;}
+height:600px;}
+.course{float:right;
+width: 100%}
 
 .intro{height: 1395px;
 }
@@ -135,8 +141,8 @@ height: 810px;}
 
 .userimage{width:30%}
 
-.mainimage {height: 558px;
-background-size: 100% 558px;}
+.mainimage {height: 605px;
+background-size: 100% 605px;}
 
 nav{padding-left:0px;}
 }
@@ -147,12 +153,13 @@ nav{padding-left:0px;}
   .aboutSec {
     width: 100%;
       margin-left:0px;}
-    .intro{height: 1062px;}
+    .intro{height:647px;}
 
-.eduspace { height: 1062PX;}
+.eduspace { height: 647PX;}
 
 .workexp{padding-left: 0px;
-padding-right: 0px;}
+padding-right: 0px;
+height: 545px}
 
 
 .headerspace {
@@ -176,7 +183,4 @@ padding-bottom: 20px}
 .hobbexp{padding-top: 0px;}
 
 .userimage{width: 27%;}
-
-
-
 }
