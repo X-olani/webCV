@@ -184,3 +184,17 @@ padding-bottom: 20px}
 
 .userimage{width: 27%;}
 }
+
+
+
+
+
+
+@media screen and (max-width: 1087px) and (min-width: 769px) {
+nav{padding-left: }
+.navheader{margin-right: 9%;}
+.aboutSec{margin-left:22%;}
+.workexp{height:783px}
+
+
+}
